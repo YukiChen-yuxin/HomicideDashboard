@@ -1,5 +1,5 @@
 # TEAM CONTRACT
-project member: Yuxin(Yuki) Chen, Siyue Gao, Mathew Yau, Xinyu Dong
+project member: Yuxin(Yuki) Chen, Siyue Gao, Matthew Yau, Xinyu Dong
 
 ### A.Commitments:
 As a project team we will:
