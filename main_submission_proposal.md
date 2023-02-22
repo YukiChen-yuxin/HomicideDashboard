@@ -20,13 +20,13 @@ More specifically, the dashboard aims to provide insights into the five followin
 
 5) How has homicide activity changed over time? 
 
-Answering these research questions could be useful in the following areas: 1) People within the United States (such as travellers, or everyday citizens) may find this helpful, as they can become more educated about homicidal activities and thereby potentially prepare (and increase their ability to defend) against such attacks. 2) People working in crime related areas may find this helpful because they can obtain an aggregated and flexible panel of criminal activity, increasing their ability to pinpoint and reduce against criminal attacks.
+As mentioned in the introduction, answering these questions could be helpful in reducing criminal activities because it can 1) educate people in the US, such as travellers and citizens (e.g., increasing awareness to prepare and defend against homicides), and 2) can educate people working in crime related areas (e.g. providing a detailed and flexible aggregate overview of homicides for law enforcement to pinpoint and reduce crime).
 
 ## Description of the data
 
 To answer our research questions, we will be visualizing the Homicide Reports dataset from 2010-2014 which has approximately 73000 instances of reported homicides. 
 
-Each instance has 20 associated variables to be showed in the dashboard, each providing some level of detail to help identify trends in homicide. These include: 
+Each instance has 20 associated variables to be showed in the dashboard, each highlighting different aspects of crime to better understand trends in homicide. These include: 
 1) the location and time of the homicide report (`City`,`State`,`Year`,`Month`)
 
 2) the instance number of each record (`Incident`)
