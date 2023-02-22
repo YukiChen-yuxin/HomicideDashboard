@@ -1,6 +1,6 @@
 ## Motivation and Purpose
-Homicides in the United States is an important topic to think about. Compared to other high-income countries, the US contains greater homicide rates (e.g. gun homicides). Because homicides can cause significant negative effects (e.g. loss of life), it may be important to investigate ways to reduce the negative effects of homicides.
-https://pubmed.ncbi.nlm.nih.gov/30817955/
+Homicides in the United States is an important topic to think about. Compared to other high-income countries, the US contains greater homicide rates (e.g. gun homicides, https://pubmed.ncbi.nlm.nih.gov/30817955/). Because homicides can cause significant negative effects (e.g. loss of life), it may be important to investigate ways to reduce the negative effects of homicides.
+
 
 One way to address the negative effects of homicides in the US may be to provide general education about homicides. General education can be helpful in at least two ways: 1) For everyday citizens, awareness about homicides (e.g. what types of crimes are likely to be committed, in which regions), may increase citizens’ abilities to prepare and defend themselves against attacks. 2) For people working in crime-related areas (e.g. law enforcement), information about homicides may increase their ability to pinpoint and reduce criminal activity.
 
