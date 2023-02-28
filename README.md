@@ -6,7 +6,7 @@ The first tab is designed to mainly demonstrate the geographical distribution of
 
 ![](https://github.com/KingOfOrikid/DATA551_proj/blob/Xinyu/sketch/Tab1.png)
 
-The second tab is to show the frequency of homicide is regulated by season or month. By changing the pointer to a specific time, users can easily see more detailed descriptions or break down information at that time.
+The second tab is to show the frequency of homicide is regulated by season or month. By changing the drop-down menu, users can select the cases given specific relationship, weapon, crime type and state.
 
 ![](https://github.com/KingOfOrikid/DATA551_proj/blob/Xinyu/sketch/Tab2.png)
 
@@ -14,7 +14,5 @@ The third tab aims to show specific *crime corridors* between different race and
 
 ![](https://github.com/KingOfOrikid/DATA551_proj/blob/Xinyu/sketch/Tab3.png)
 
-The fourth tab illustrates how the crimes committed by different gender changes over time 
 
-![](https://github.com/KingOfOrikid/DATA551_proj/blob/Xinyu/sketch/Tab4.png)
 
