@@ -151,7 +151,7 @@ WEAPONS = [w.strip() for w in list(murder['Weapon'].dropna().unique())]
 app.layout = dbc.Container([
     dbc.Tabs([
         dbc.Tab([
-            html.H1("Dashboard of US Murder Cases by State"),
+            html.H1("Dashboard of US Homicide Cases by State"),
             html.P("Please select features to do filtering on"),
 
             #1 row
@@ -202,7 +202,7 @@ app.layout = dbc.Container([
 
         dbc.Tab([
             
-            html.H1("Dashboard of Murder Cases by Months"),
+            html.H1("Dashboard of Homicide Cases by Months"),
     
             html.P("Please select features to do filtering on"),
             
@@ -338,7 +338,7 @@ def plot_map(years_slider,weapons_checklist):
 
 
     fig_map.update_layout(
-        title_text = 'Murder Cases Record by State',
+        title_text = 'Homicide Cases Record by State',
         geo = dict(
             scope='usa',
             projection=go.layout.geo.Projection(type = 'albers usa'),
@@ -387,7 +387,7 @@ def plot_line(clickData, years_slider,weapons_checklist):
                   })
     fig_line.update_traces(mode="markers+lines", hovertemplate=None)
 
-    fig_line.update_layout(title_text = 'Murder Cases Record by Month',
+    fig_line.update_layout(title_text = 'Homicide Cases Record by Month',
                             hovermode="x unified",
                            width = 500,
                             height = 400,
@@ -426,7 +426,7 @@ def plot_bar(clickData, years_slider,weapons_checklist):
                     'Record_ID':'Count of cases',
                     'Perpetrator_Sex':'Perpetrator Sex',
                   })
-    fig_bar.update_layout(title_text = 'Murder Cases Record by Perpetrator Race',
+    fig_bar.update_layout(title_text = 'Homicide Cases Record by Perpetrator Race',
                             width = 500,
                             height = 400,
                           #legend=dict(orientation="h",yanchor="bottom",y=1.02,xanchor="right",x=1)

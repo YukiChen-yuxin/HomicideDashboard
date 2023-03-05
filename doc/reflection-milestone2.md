@@ -5,6 +5,7 @@ Our dashboard is spread across 2 tabs of content.
 * Shows count of homicides in the US by States, and presents the data according to the gender of the victim and the perpetrator
 * Can filter the count of homicides across year values and weapon type values
 * By selecting a state, shows line chart and bar chart about counts of homicides by month and by perpetrator race
+* The page accomplishes a relatively good level of interactivity, by selecting different continents, all three graphs change accordingly
 
 ## Tab 2
 * Shows count of homicides in the US across months
