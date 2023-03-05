@@ -15,7 +15,7 @@ Our dashboard is spread across 2 tabs of content.
 ## Tab 1
 * Beautification of slider and checkbox 
 * Add `select all` in checkbox to select all weapon type valus 
-* Change three plots' sizes to fit the page well
+* Change three plots' sizes to fit the page well and can be transformed when the page size varies
 
 ## Tab 2
 * Crime type filter in rose graph not that helpful, consider filtering by another column
