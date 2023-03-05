@@ -377,7 +377,12 @@ def plot_line(clickData, years_slider,weapons_checklist):
     fig_line = px.line(murder_trial,
                   x="Month", 
                   y="Record_ID", 
-                  color='Perpetrator_Sex')
+                  color='Perpetrator_Sex',
+                  labels={
+                    'Month':'Month',
+                    'Record_ID':'Count of cases',
+                    'Perpetrator_Sex':'Perpetrator Sex',
+                  })
     fig_line.update_traces(mode="markers+lines", hovertemplate=None)
 
     fig_line.update_layout(title_text = 'Murder Cases Record by Month',
@@ -413,7 +418,12 @@ def plot_bar(clickData, years_slider,weapons_checklist):
                     x="Perpetrator_Race", 
                     y="Record_ID", 
                     color="Perpetrator_Sex",
-                    text_auto=True)
+                    text_auto=True,
+                    labels={
+                    'Perpetrator_Race':'Perpetrator Race',
+                    'Record_ID':'Count of cases',
+                    'Perpetrator_Sex':'Perpetrator Sex',
+                  })
     fig_bar.update_layout(title_text = 'Murder Cases Record by Perpetrator Race',
                             width = 500,
                             height = 400,
