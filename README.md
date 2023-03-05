@@ -76,7 +76,9 @@ $ pip install -r requirements.txt
 $ python src/app.py
 ```
 
-Open the link displayed on the terminal.
+Open the link displayed on the terminal.                     
+                      
+[demo.gif](https://github.com/KingOfOrikid/DATA551_proj/blob/main/doc/demo.gif)
 
 ## How to Contribute
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/KingOfOrikid/DATA551_proj/blob/main/CODE_OF_CONDUCT.md).
