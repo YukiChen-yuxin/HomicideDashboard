@@ -13,10 +13,10 @@ This document (README file) is a hub to provide you with some information about 
 * [Who are we?](#Group-information)
 * [What is our ideal project?](#Initial-Ideas)
 * [What are we doing?](#Introduction)
-* [Package Structure](#Package-Structure)
-* [How to use](#How-to-use)
-* [How to Contribute](#How-to-Contribute)
-* [Contact us](#Contact-us)
+* [What does our package include?](#Package-Structure)
+* [How to use our project?](#How-to-use)
+* [How can you get involved?](#How-to-Contribute)
+* [Get in touch](#Contact-us)
 
 ## Group information
 - **Group members: Yuxin Chen :wink: & Siyue Gao :blush: & Xinyu Dong :grin: & Matthew Yau :smirk:** 
@@ -38,8 +38,35 @@ The third tab aims to show specific *crime corridors* between different race and
 ![](https://github.com/KingOfOrikid/DATA551_proj/blob/Xinyu/sketch/Tab3.png)
 
 ## Introduction
+Homicides in the United States is an important topic to think about. Compared to other high-income countries, the US contains greater homicide rates (e.g. gun homicides, https://pubmed.ncbi.nlm.nih.gov/30817955/). Because homicides can cause significant negative effects (e.g. loss of life), it may be important to investigate ways to reduce the negative effects of homicides.                   
+                               
+One way to address the negative effects of homicides in the US may be to provide general education about homicides. General education can be helpful in at least two ways: 1) For everyday citizens, awareness about homicides (e.g. what types of crimes are likely to be committed, in which regions), may increase citizens’ abilities to prepare and defend themselves against attacks. 2) For people working in crime-related areas (e.g. law enforcement), information about homicides may increase their ability to pinpoint and reduce criminal activity.                                     
+                  
+Therefore, the aim of the current project is to create tools that could provide education about homicides in the US. Specifically, we will create an interactive dashboard investigating homicide-related data from the 2010’s to 2014s. This dashboard could be used to provide insights into relevant questions, such as examining how homicide-related activity is distributed geographically across the US.                
 
 ## Package Structure
+
+```
+project/
+├── data/  
+│   └── database.csv
+│
+├── src/             
+│   └── app.py
+│
+├── reports/
+├── doc/
+│   ├── sketch/
+│   ├── main_submission_proposal.md
+│   ├── reflection-milestone2.md
+│   └── team-contract.md
+│
+├── requirements.txt
+├── README.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+└── LICENSE.md
+```
 
 ## How to use
 
