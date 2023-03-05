@@ -1,4 +1,6 @@
 # Load modules
+import sys 
+sys.path.append("..")
 from dash import Dash, dcc, html, Input, Output,callback, State
 import dash_bootstrap_components as dbc
 import plotly.express as px
@@ -10,7 +12,7 @@ import altair as alt
 import numpy as np
 import pandas as pd
 
-murder = pd.read_csv("data/database.csv")
+murder = pd.read_csv("../data/database.csv")
 
 #remove space to conduct query
 murder.columns =['Record_ID', 'Agency_Code', 'Agency_Name', 'Agency_Type', 'City',
