@@ -6,7 +6,7 @@
 
 First and foremost, Welcome! :tada::balloon::balloon::balloon:         
              
-Thank you for visiting the `Watch out for homicides :heavy_exclamation_mark:` app project repository.          
+Thank you for visiting the `Watch out for homicides` app project repository.          
 
 This document (README file) is a hub to provide you with some information about the project. Jump directly to one of the sections below, or scroll straight down to find out more.
 
@@ -59,6 +59,7 @@ project/
 │   ├── sketch/
 │   ├── main_submission_proposal.md
 │   ├── reflection-milestone2.md
+│   ├── demo.gif
 │   └── team-contract.md
 │
 ├── requirements.txt
