@@ -6,7 +6,7 @@
 
 First and foremost, Welcome! :tada::balloon::balloon::balloon:         
              
-Thank you for visiting the `Watch out for homicides` app project repository.          
+Thank you for visiting the `Watch out for homicides :heavy_exclamation_mark:` app project repository.          
 
 This document (README file) is a hub to provide you with some information about the project. Jump directly to one of the sections below, or scroll straight down to find out more.
 
@@ -71,11 +71,11 @@ project/
 ## How to use
 
 ```
-> pip install -r requirements.txt
-> python src/app.py
+$ pip install -r requirements.txt
+$ python src/app.py
 ```
 
-Open the link displayed on the terminal
+Open the link displayed on the terminal.
 
 ## How to Contribute
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/KingOfOrikid/DATA551_proj/blob/main/CODE_OF_CONDUCT.md).
