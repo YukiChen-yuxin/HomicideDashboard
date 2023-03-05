@@ -129,6 +129,8 @@ def line_graph_sta(df_selected):
 external_stylesheets = [dbc.themes.BOOTSTRAP]
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
+server = app.server
+
 # CSS Styles
 css_dd = {
     "font-size": "smaller",
