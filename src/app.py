@@ -12,7 +12,7 @@ import altair as alt
 import numpy as np
 import pandas as pd
 
-murder = pd.read_csv("../data/database.csv")
+murder = pd.read_csv("data/database.csv")
 
 #remove space to conduct query
 murder.columns =['Record_ID', 'Agency_Code', 'Agency_Name', 'Agency_Type', 'City',

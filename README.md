@@ -1,4 +1,4 @@
-# Dashboard for Homicide Cases in America 
+# Watch out for homicides :oncoming_police_car::ambulance:(Dashboard for Homicide Cases in America) 
 
 **Heroku**: [https://dash-app-murder.herokuapp.com](https://dash-app-murder.herokuapp.com)
 
@@ -6,7 +6,7 @@
 
 First and foremost, Welcome! :tada::balloon::balloon::balloon:         
              
-Thank you for visiting the xxxxxx app project repository.          
+Thank you for visiting the `Watch out for homicides` app project repository.          
 
 This document (README file) is a hub to provide you with some information about the project. Jump directly to one of the sections below, or scroll straight down to find out more.
 
@@ -70,9 +70,18 @@ project/
 
 ## How to use
 
+```
+> pip install -r requirements.txt
+> python src/app.py
+```
+
+Open the link displayed on the terminal
+
 ## How to Contribute
-
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/KingOfOrikid/DATA551_proj/blob/main/CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.              
+         
+If you think you can help in any of these areas or in many areas we haven't thought of yet, then please take a look at our [Contributors' guidelines](https://github.com/KingOfOrikid/DATA551_proj/blob/main/CONTRIBUTING.md).          
+           
 ## Contact us
-
-
-
+If you want to report a problem or suggest an enhancement we'd love for you to [open an issue](../../issues) at this github repository because then we can get right on it. But you can also contact [Yuki(Yuxin)](https://github.com/KingOfOrikid) by email yuxin.yuki.chen@gmail.com.
