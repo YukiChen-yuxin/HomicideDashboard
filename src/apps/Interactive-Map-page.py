@@ -432,7 +432,10 @@ def select_all_none(all_selected, options):
 )
 def plot_map(years_slider, weapons_checklist):
     #filter
-    murder_selected = murder.loc[(murder['Year'].isin(years_slider))
+    years_sliders = []
+    for i in range(years_slider[0],years_slider[1]+1):
+        years_sliders.append(i)
+    murder_selected = murder.loc[(murder['Year'].isin(years_sliders))
                                  & (murder['Weapon'].isin(weapons_checklist))]
     murder_trial = plot_text_generate(murder_selected)
 
@@ -470,16 +473,20 @@ def plot_map(years_slider, weapons_checklist):
               Input("years_slider", "value"),
               Input("weapons_checklist", "value"))
 def plot_line(clickData, years_slider, weapons_checklist):
+    years_sliders = []
+    for i in range(years_slider[0],years_slider[1]+1):
+        years_sliders.append(i)
+
     if clickData is None:
         state_code_selected = state_selected
         murder_selected = murder.loc[
-            (murder['Year'].isin(years_slider))
+            (murder['Year'].isin(years_sliders))
             & (murder['Weapon'].isin(weapons_checklist)) &
             (murder['State_Code'].isin(state_code_selected))]
     else:
         state_code_selected = clickData['points'][0]['customdata']
         murder_selected = murder.loc[
-            (murder['Year'].isin(years_slider))
+            (murder['Year'].isin(years_sliders))
             & (murder['Weapon'].isin(weapons_checklist)) &
             (murder['State_Code'] == state_code_selected)]
 
@@ -515,16 +522,20 @@ def plot_line(clickData, years_slider, weapons_checklist):
               Input("years_slider", "value"),
               Input("weapons_checklist", "value"))
 def plot_bar(clickData, years_slider, weapons_checklist):
+    years_sliders = []
+    for i in range(years_slider[0],years_slider[1]+1):
+        years_sliders.append(i)
+
     if clickData is None:
         state_code_selected = state_selected
         murder_selected = murder.loc[
-            (murder['Year'].isin(years_slider))
+            (murder['Year'].isin(years_sliders))
             & (murder['Weapon'].isin(weapons_checklist)) &
             (murder['State_Code'].isin(state_code_selected))]
     else:
         state_code_selected = clickData['points'][0]['customdata']
         murder_selected = murder.loc[
-            (murder['Year'].isin(years_slider))
+            (murder['Year'].isin(years_sliders))
             & (murder['Weapon'].isin(weapons_checklist)) &
             (murder['State_Code'] == state_code_selected)]
 

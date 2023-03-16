@@ -264,7 +264,11 @@ layout = dbc.Container(
     Input("years_slider2", "value")
 )
 def plot_sankey(year_selected):
-    murder_selected = murder.loc[(murder['Year'].isin(year_selected))]
+    years_sliders = []
+    for i in range(year_selected[0],year_selected[1]+1):
+        years_sliders.append(i)
+
+    murder_selected = murder.loc[(murder['Year'].isin(years_sliders))]
 
     to_label = sankey_graph_sta(murder_selected)[0]
     df_dict = sankey_graph_sta(murder_selected)[1]
