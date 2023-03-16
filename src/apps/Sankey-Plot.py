@@ -204,7 +204,7 @@ layout = dbc.Container(
 
 
 
-        #1 row
+        #Slider Row
         dbc.Row([
             dbc.Col([
                 dbc.Card([
@@ -242,6 +242,8 @@ layout = dbc.Container(
             width=4,),
         ]),
         html.Br(),
+
+        #Sankey Row
         dbc.Row([
             dbc.Col([
                 html.P('Homicide Cases Record by Perpetrators and Victims',

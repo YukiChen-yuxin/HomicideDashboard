@@ -227,6 +227,8 @@ CONTENT_STYLE = {
 # ------------------------------------------------------ APP ------------------------------------------------------
 layout = dbc.Container(
     children=[
+    
+        #Header Row
         dbc.Row(
             [
                 dbc.Col(
@@ -244,8 +246,10 @@ layout = dbc.Container(
             justify="center",
         ),
         html.Br(),
-        #1 row
+        #Slider & Checklist Row
         dbc.Row([
+    
+            #Slider Col
             dbc.Col([
                 dbc.Card([
                     dbc.CardHeader('Please select the year: ',
@@ -277,6 +281,8 @@ layout = dbc.Container(
                     }),
             ],
             width=6,),
+            
+            #Checklist Col
             dbc.Col([
                 dbc.Card([
                     dbc.CardHeader('Please select the weapon:',
@@ -318,6 +324,8 @@ layout = dbc.Container(
             width=6,)
         ]),
         html.Br(),
+
+        #Map Row
         dbc.Row([
             dbc.Col([
                 dbc.Card([
@@ -339,8 +347,11 @@ layout = dbc.Container(
             ])
         ]),
         html.Br(),
+
+        #Line & Bar chart Row
         dbc.Row(
             [
+                #Line chart Col
                 dbc.Col([
                     dbc.Card([
                         dbc.CardHeader('Homicide Cases Record by Month',
@@ -359,6 +370,7 @@ layout = dbc.Container(
                             "background": "#F8F8FF",
                     }),
                 ]),
+                #Bar chart Col
                 dbc.Col([
                     dbc.Card([
                        dbc.CardHeader('Homicide Cases Record by Perpetrator Race',
@@ -385,6 +397,7 @@ layout = dbc.Container(
 
 
 # ------------------------------------------------------ CALLBACK ------------------------------------------------------
+#Select all
 @callback(
         Output("weapons_checklist", "value"),
         Output("all-or-none", "value"),
@@ -411,7 +424,7 @@ def select_all_none(all_selected, options):
 
     return my_checklist_options, all_or_none_options
 
-
+#plot map
 @callback(
     Output("map_graph", "figure"),
     Input("years_slider", "value"),
@@ -452,7 +465,7 @@ def plot_map(years_slider, weapons_checklist):
 
     return fig_map
 
-
+#plot line
 @callback(Output("line_graph", "figure"), Input("map_graph", "clickData"),
               Input("years_slider", "value"),
               Input("weapons_checklist", "value"))
@@ -497,7 +510,7 @@ def plot_line(clickData, years_slider, weapons_checklist):
 
     return fig_line
 
-
+#plot bar
 @callback(Output("bar_graph", "figure"), Input("map_graph", "clickData"),
               Input("years_slider", "value"),
               Input("weapons_checklist", "value"))
