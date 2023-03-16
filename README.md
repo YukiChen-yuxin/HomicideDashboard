@@ -52,6 +52,15 @@ project/
 │   └── database.csv
 │
 ├── src/             
+│   ├── apps/
+│       ├── __init__.py
+│       ├── Interactive-Map-page.py
+│       ├── Monthly-Record-Graph.py
+│       └── Sankey-Plot.py
+│   ├── assets/
+│       ├── custom.css
+│   ├── data/
+│       ├── database.csv
 │   └── app.py
 │
 ├── reports/
@@ -59,7 +68,11 @@ project/
 │   ├── sketch/
 │   ├── main_submission_proposal.md
 │   ├── reflection-milestone2.md
-│   ├── demo.gif
+│   ├── reflection-milestone4.md
+│   ├── v1_demo.gif
+│   ├── page1.png
+│   ├── page2.png
+│   ├── page3.png
 │   └── team-contract.md
 │
 ├── requirements.txt
