@@ -78,7 +78,25 @@ $ python src/app.py
 
 Open the link displayed on the terminal.                     
                       
-![demo.gif](https://github.com/KingOfOrikid/DATA551_proj/blob/main/doc/v1_demo.gif)
+<div align=center><img src="doc/v1_demo.gif"></div>            
+<p align="center">
+Figure1: v1 demo
+</p>       
+
+<div align=center><img src="doc/page1.png"></div>            
+<p align="center">
+Figure2: v2 page1 Interactive Map
+</p> 
+
+<div align=center><img src="doc/page2.png"></div>            
+<p align="center">
+Figure3: v2 page2 Rose Graph
+</p> 
+
+<div align=center><img src="doc/page3.png"></div>            
+<p align="center">
+Figure4: v2 page3 Sankey Plot
+</p> 
 
 ## How to Contribute
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/KingOfOrikid/DATA551_proj/blob/main/CODE_OF_CONDUCT.md).
