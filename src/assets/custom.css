@@ -1,0 +1,13 @@
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #aecbeb;
+}
+
+h1 {
+    color:#000000;
+    font-family: ui-monospace;
+  }
+
+  .rc-slider-mark-text {
+    font-size: 15px;
+}
