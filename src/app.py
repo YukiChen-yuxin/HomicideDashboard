@@ -19,6 +19,7 @@ SIDEBAR_STYLE = {
 # ------------------------------------------------------ APP ------------------------------------------------------
 app = Dash(__name__, use_pages=True,pages_folder='/apps',external_stylesheets=external_stylesheets)
 
+server = app.server
 app.layout = html.Div([
     html.Div(
         [
