@@ -56,7 +56,7 @@ app.layout = html.Div([
                     html.P("https://github.com/KingOfOrikid/DATA551_proj",
 			                style = {'font-size':14}),
                 ],
-                href = 'https://github.com/KingOfOrikid/DATA551_proj'
+                href = 'https://github.com/DahboardTeam/HomicideDashboard'
             )
         ],
         style=SIDEBAR_STYLE,
