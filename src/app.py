@@ -53,7 +53,7 @@ app.layout = html.Div([
             ),
             dcc.Link(
                 [
-                    html.P("https://github.com/DahboardTeam/HomicideDashboard",
+                    html.P("github.com/DahboardTeam/HomicideDashboard",
 			                style = {'font-size':14}),
                 ],
                 href = 'https://github.com/DahboardTeam/HomicideDashboard'
